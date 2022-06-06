@@ -1,0 +1,25 @@
+{
+  "name": "music-db-server",
+  "version": "1.0.0",
+  "description": "Music API server (with MongoDB)",
+  "main": "./src/server.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "keywords": [
+    "api",
+    "server",
+    "music"
+  ],
+  "author": "Alex López <lopezpedrosa.alex@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
